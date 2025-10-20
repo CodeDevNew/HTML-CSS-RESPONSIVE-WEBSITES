@@ -1,0 +1,46 @@
+/*MD - TABLETS: 768px - 1024px*/
+@media (max-width: 56rem) {
+  * {
+    font-family: sans-serif;
+  }
+
+  html {
+    font-size: 56.25%;
+  }
+
+  /* SECTION-1 */
+
+  .main-paragraph-content {
+    width: 100%;
+  }
+
+  /* SECTION-3 */
+
+  .section-3-content {
+    margin: 6rem 0;
+  }
+
+  .art-types-images-container {
+    margin-top: 6rem;
+  }
+
+  .images-types {
+    margin: 0;
+  }
+
+  /* FOOTER-CONTAINER */
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .logo-container {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  h3,
+  .footer-details {
+    margin-bottom: 2rem;
+  }
+}
