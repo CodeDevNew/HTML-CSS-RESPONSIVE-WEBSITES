@@ -1,0 +1,61 @@
+/* MD - TABLETS: 768px - 1024px  */
+
+@media (max-width: 50rem) {
+  html {
+    font-size: 50%;
+  }
+
+  /* SECTION-1 AND SECTION-2 */
+  .hero-section,
+  .section-2-offers {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .hero-section-container {
+    width: 100%;
+  }
+
+  .hero-section-image {
+    margin-top: 10rem;
+  }
+
+  .paragraph-content {
+    margin: 0 auto;
+  }
+
+  .primary-heading {
+    margin-bottom: 2.5rem;
+  }
+
+  .btn-containers {
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 2rem;
+  }
+
+  .section-2-container {
+    width: 100%;
+    transform: translateY(0);
+  }
+
+  .sales-offer-image {
+    margin-bottom: 10rem;
+  }
+
+  .section-2-offers {
+    margin-bottom: 10rem;
+  }
+
+  /* SECTION-3 */
+  .product-btn-container {
+    flex-direction: column;
+  }
+
+  .customer-review {
+    margin-bottom: 2rem;
+  }
+}
