@@ -46,7 +46,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 html {
@@ -92,7 +91,7 @@ body {
 /* COMPONENTS */
 
 .primary-heading {
-  font-size:clamp(4.8rem,5vw,var(--text-h1));
+  font-size: clamp(4.8rem, 5vw, var(--text-h1));
   font-family: var(--primary-font-family);
   color: var(--heading-color);
   margin-bottom: 5rem;
@@ -108,7 +107,6 @@ body {
   margin-bottom: 3rem;
   color: var(--tertiary-color);
   max-width: 500px;
- 
 }
 
 .btn-containers {
@@ -165,7 +163,7 @@ body {
   background: url(./images/oswaldo-ibanez-1NPUmTaiMeg-unsplash.jpg);
   background-position: top;
   background-size: cover;
-   width: clamp(200px, 30vw, 400px);
+  width: clamp(200px, 30vw, 400px);
   height: clamp(200px, 30vw, 400px);
   border-radius: 100%;
   box-shadow: 4px 7px 4px 2px var(--secondary-color);
@@ -226,6 +224,7 @@ body {
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
+
 .btn.btn-product.active {
   border-color: var(--primary-color);
   color: var(--primary-color);
@@ -241,7 +240,7 @@ body {
 
 .product-img {
   background: #ebf1f0;
-  padding: 3rem; 
+  padding: 3rem;
   width: clamp(200px, 20vw, 400px);
   height: clamp(200px, 30vw, 400px);
   object-fit: contain;
@@ -253,12 +252,15 @@ body {
   font-size: var(--text-base);
   margin-bottom: 1rem;
 }
+
 .product-price {
   display: block;
 }
+
 .product-item-link {
   list-style-type: none;
 }
+
 .product-view-link {
   text-decoration: none;
   font-size: var(--text-base);
@@ -286,8 +288,15 @@ body {
   text-align: center;
 }
 
+.customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .customer-img {
-   width: clamp(120px, 30vw, 200px);
+  width: clamp(120px, 30vw, 200px);
   height: clamp(120px, 30vw, 200px);
   object-fit: cover;
   border-radius: 100%;
@@ -322,13 +331,6 @@ body {
   padding: 3rem 6rem;
 }
 
-.customer {
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-}
-
 .footer-details {
   margin: 5rem 0;
 }
@@ -344,9 +346,4 @@ address,
   font-size: 1.4rem;
   line-height: 2;
   font-style: normal;
-}
-
-.contact-info span {
-  display: block;
-
 }
