@@ -58,9 +58,27 @@
   .customer-review {
     margin-bottom: 2rem;
   }
+}
+/*XS - PHONE PORTRAIT: <576 */
+@media (max-width: 31.25rem) {
   /* FOOTER */
   .footer-container {
     flex-direction: column;
+    padding: 2rem 4rem;
+    align-items: center;
+  }
+
+  .footer-details {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+
+  .footer-heading {
+    margin-bottom: 1rem;
+  }
+  .contact-info {
+    text-align: center;
   }
 }
+
 
