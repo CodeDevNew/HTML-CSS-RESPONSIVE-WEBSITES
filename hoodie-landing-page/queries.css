@@ -58,4 +58,9 @@
   .customer-review {
     margin-bottom: 2rem;
   }
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+  }
 }
+
