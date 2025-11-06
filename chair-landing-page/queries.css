@@ -1,0 +1,122 @@
+/*MD - TABLETS: 768px - 1024px   */
+
+/* MAX-WIDTH:992PX */
+@media (max-width: 62rem) {
+  /* SECTION-4 */
+  .section-4-content {
+    flex-direction: column;
+  }
+
+  .section-4-img-container {
+    margin-bottom: 5rem;
+  }
+}
+
+/* MAX-WIDTH:936PX */
+
+@media (max-width: 58.5rem) {
+  /* SECTION-1 */
+  .section-1-content {
+    margin-top: 5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img-container {
+    margin-top: 8rem;
+  }
+
+  .btn-container {
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 8rem; */
+  }
+
+  /* SECTION-2 */
+  .section-2-content {
+    margin-top: 40rem;
+  }
+
+  .section-5-img-container {
+    display: none;
+  }
+}
+
+/* MAX-WIDTH:836PX */
+@media (max-width: 52.25rem) {
+  /* NAVBAR */
+  .navbar {
+    gap: 2rem;
+    flex-direction: column;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  /* SECTION-2 */
+  .popularity-of-our-company {
+    flex-direction: column;
+  }
+
+  /* SECTION-3 */
+  .product-content {
+    padding: 3rem 1rem;
+  }
+}
+
+/* MAX-WIDTH:600PX */
+
+@media (max-width: 37.5rem) {
+  /* SECTION-2 */
+  .section-2-content {
+    margin-top: 25rem;
+  }
+
+  .popularity-of-our-company {
+    gap: 5rem;
+    margin-bottom: 10rem;
+  }
+
+  /* SECTION-3 */
+  .section-3-content {
+    margin-bottom: 9rem;
+  }
+
+  /* SECTION-4 */
+  .section-4-content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .paragraph-content {
+    text-align: center;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    margin-top: 10rem;
+  }
+
+  /* FOOTER */
+  .footer-logo {
+    text-align: center;
+  }
+  .company-details {
+    flex-direction: column;
+    align-content: center;
+    gap: 1rem;
+    margin: 0;
+  }
+}

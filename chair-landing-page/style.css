@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+:root {
+
+  /* FONT-FAMILY */
+  --primary-font-family: sans-serif;
+  --secondary-font-family: " Playfair Display SC", serif;
+  
+  /* COLORS */
+  --heading-color: #0000004f;
+  --primary-color: #e3e8e4;
+  --secondary-color: #363636;
+
+  --black: #000;
+  --white: #fff;
+
+  /* TYPOGRAPHY */
+  --text-h1: 6.2rem;
+  --text-h2: 4.8rem;
+  --text-h3: 4rem;
+  --text-h4: 3.2rem;
+  --text-h5: 2.4rem;
+  --text-p: 2rem;
+  --text-base: 1.6rem;
+  --text-small: 1.2rem;
+
+  /* FONT WEIGHT */
+
+  --font-normal: 400;
+  --font-bold: 700;
+
+  /* MISCELLAEOUS */
+  --nav-height: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  font-weight: var(--font-normal);
+  font-size: var(--text-base);
+}
+
+h1,
+h2 {
+  font-family: var(--secondary-font-family);
+  font-size: clamp(4.8rem, 8vw, var(--text-h1));
+}
+
+.main-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--nav-height);
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: var(--text-base);
+  color: var(--black);
+}
+
+.logo {
+  font-size: var(--primary-font-family);
+  font-size: var(--text-h3);
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  gap: 8rem;
+}
+
+.nav-list li a:hover {
+  border-bottom: 2px solid var(--black);
+  padding-bottom: 1rem;
+}
+
+/* COMPONENT */
+.btn-container {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.8rem 2.8rem;
+  border-radius: 40px;
+}
+
+.btn.btn-black {
+  border: 2px solid black;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.btn-without-bg {
+  color: var(--black);
+  font-weight: var(--font-bold);
+}
+
+.paragraph-content {
+  max-width: 500px;
+  font-size: var(--text-base);
+  margin-top: 3rem;
+  line-height: 1.5;
+}
+
+/* HERO -SECTION */
+
+.section-1-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 2rem;
+}
+
+.hero-btn-container {
+  margin-top: 5rem;
+}
+
+.btn.hero-btn {
+  background-color: #363636;
+  color: var(--white);
+}
+
+.secondary-heading-color {
+  color: var(--heading-color);
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-furniture-img {
+  width: clamp(250px, 30vw, 450px);
+  height: clamp(250px, 30vw, 450px);
+
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+
+/* SECTION-2 */
+
+.section-2-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popularity-of-our-company {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rem;
+  margin-bottom: 15rem;
+}
+
+.popularity-name {
+  color: #abbbbb;
+}
+
+/* SECTION-3*/
+
+.section-3-content {
+  margin-bottom: 15rem;
+}
+
+.section-3-main-heading {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.shop-popular-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.product-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-chair-img {
+  padding: 2.5rem;
+  object-fit: contain;
+  width: clamp(150px, 19vw, 300px);
+  height: clamp(150px, 19vw, 300px);
+  background-color: var(--primary-color);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  object-fit: cover;
+}
+
+.product-content {
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+  background: var(--secondary-color);
+  padding: 4rem 2rem;
+  color: var(--white);
+}
+
+.product-heading {
+  font-size: var(--text-h4);
+  margin-bottom: 1rem;
+}
+
+.product-name {
+  font-size: 1.4rem;
+  font-family: serif;
+}
+
+.arrow-symbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-symbol {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+/* SECTION-4 & SECTION-5*/
+
+.section-4-content {
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-choose-us-container,
+.best-features-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-4-img-container {
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+
+.chair-img {
+  width: clamp(200px, 30vw, 400px);
+  height: clamp(200px, 30vw, 400px);
+  object-fit: cover;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin-top: 10rem;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  padding: 2rem;
+  border-radius: 6px;
+  position: relative;
+}
+
+.special-grey-color {
+  background-color: #e3e8e490;
+}
+
+.card p {
+  max-width: 150px;
+  font-size: var(--text-small);
+  margin-top: 2rem;
+  color: #999999;
+}
+
+.star {
+  font-size: 1.5rem;
+  background-color: var(--secondary-color);
+  color: var(--white);
+  position: absolute;
+  top: -15px;
+  left: -3px;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 1px 6px;
+}
+
+/*SECTION-5*/
+
+.section-5-content {
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-5-img-container {
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  width: 300px;
+  height: 350px;
+}
+
+.chair-img-2 {
+  width: 350px;
+  height: 450px;
+  object-fit: contain;
+}
+
+/* FOOTER */
+
+.footer-container {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8rem 4rem;
+  color: var(--white);
+}
+
+.footer-content {
+  max-width: 400px;
+  line-height: 1.5;
+}
+
+.sm-logo {
+  margin-bottom: 3rem;
+}
+
+.company-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.details {
+  list-style: none;
+}
+
+.details li {
+  margin-bottom: 2rem;
+}
+
+.details a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+h3 {
+  font-family: serif;
+  font-size: var(--text-h4);
+  margin: 4.5rem 0 3rem;
+}
