@@ -1,0 +1,72 @@
+/* MD - TABLETS: 768px - 1024px   */
+@media (max-width: 56.25rem) {
+  html {
+    font-size: 50%;
+  }
+
+  /* SECTION-2 AND 3 */
+  .card-container,
+  .section-3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* SECTION-4 */
+  .project-grid-container {
+    grid-template-columns: 1fr;
+    gap: 7.5rem 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .grid-image-2 {
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .form {
+    margin-left: 0;
+    max-width: 400px;
+  }
+
+  /* FOOTER */
+  .footer-links {
+    flex-direction: column;
+    padding: 2.5rem 5rem;
+    gap: 2rem;
+  }
+}
+
+/* XS - PHONE PORTRAIT: <576  */
+@media (max-width: 34rem) {
+  html {
+    font-size: 37.5%;
+  }
+
+  /* NAVBAR */
+  .logo {
+    letter-spacing: -2px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 1.2rem;
+  }
+
+  .navlist {
+    gap: 0.9rem;
+  }
+
+  /* HERO-SECTION */
+  .hero-container p,
+  .hero-container h1,
+  .hero-container ul {
+    margin-bottom: 1rem;
+  }
+
+  /* SECTION-2 */
+  .card {
+    padding: 1.5rem;
+    margin-bottom: 5rem;
+  }
+}
