@@ -42,3 +42,4 @@ This repository is mainly for **practice and portfolio building**, and can also 
 2. The Art Website and with the website link : https://codedevnew.github.io/HTML-CSS-RESPONSIVE-WEBSITES/the-art-website/
 3. The Hoodies Landing Page with the website link : https://codedevnew.github.io/HTML-CSS-RESPONSIVE-WEBSITES/hoodie-landing-page/
 4. The Chair Landing Page with the website link : https://codedevnew.github.io/HTML-CSS-RESPONSIVE-WEBSITES/chair-landing-page/
+4. The Construction Landing Page with the website link : https://codedevnew.github.io/HTML-CSS-RESPONSIVE-WEBSITES/construction-landing-page/
