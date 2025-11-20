@@ -35,7 +35,9 @@ I’ve also included **deployed live links** for all projects — feel free to e
 This repository is mainly for **practice and portfolio building**, and can also help others who are learning **HTML and CSS** to improve their design and responsiveness skills.
 
 ---
+⭐ Support
 
+If you find this helpful, consider starring the repository!
 
 ## Projects List
 1. The Coffee Shop Website and with the website link : https://codedevnew.github.io/HTML-CSS-RESPONSIVE-WEBSITES/coffee-shop/
